@@ -1,5 +1,4 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: fb483d61793fe4c4f8143bb48bc8bcab
 TextureImporter:
   internalIDToNameTable: []
@@ -112,8 +111,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47d8ef4c75084104191ac7bbf0281af7
-      internalID: -379851967
+      spriteID: 7a5230715c70679418cbf6ca96138a3b
+      internalID: 417602450
       vertices: []
       indices: 
       edges: []
@@ -133,8 +132,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47dbaaf625fe27a4986c69223e3217d2
-      internalID: -1843710680
+      spriteID: 46243907480b1e64f9e4004393dcc407
+      internalID: -715728326
       vertices: []
       indices: 
       edges: []
@@ -154,8 +153,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa7cc989c6810b6409b8a56e33813d7a
-      internalID: -1115926883
+      spriteID: d4ff2e2d3665f1a498b07efb8f2020bc
+      internalID: 172712951
       vertices: []
       indices: 
       edges: []
@@ -175,8 +174,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25e4e6ab98e3c9d4cb7644fcfdc4f3df
-      internalID: 1081325152
+      spriteID: 74d8343cbea5ff54f921fb1739d7147d
+      internalID: 140079088
       vertices: []
       indices: 
       edges: []
@@ -196,8 +195,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c33f6502675de7b45af3550a3b4bbf4b
-      internalID: -1718005864
+      spriteID: 0c439a519e9f5704c8e1069e6742a75f
+      internalID: -2064032845
       vertices: []
       indices: 
       edges: []
@@ -213,16 +212,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      fish_0: -379851967
-      fish_1: -1843710680
-      fish_2: -1115926883
-      fish_3: 1081325152
-      fish_4: -1718005864
+      fish_0: 417602450
+      fish_1: -715728326
+      fish_2: 172712951
+      fish_3: 140079088
+      fish_4: -2064032845
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-=======
-guid: 9670ba64fcb98cc4bac2e4537f14840c
->>>>>>> 69fd1d687b9096da15d18f8d776e8c989cdde96d
