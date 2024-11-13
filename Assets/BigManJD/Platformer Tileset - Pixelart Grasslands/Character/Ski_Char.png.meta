@@ -1,5 +1,4 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: b480b6287c71f4241a389b664a658b68
 TextureImporter:
   internalIDToNameTable: []
@@ -112,8 +111,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8e3098f373c8f04499f10a44c0b25fe
-      internalID: 751523855
+      spriteID: b59f43132b77b694ca171a6d9811d4a0
+      internalID: 557268648
       vertices: []
       indices: 
       edges: []
@@ -133,8 +132,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22f877d84780e6e4f81e995dc210c88d
-      internalID: -2015021047
+      spriteID: 70cf953e2048f7a408be2348af99e6b3
+      internalID: -237994693
       vertices: []
       indices: 
       edges: []
@@ -150,13 +149,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Ski_Char_0: 751523855
-      Ski_Char_1: -2015021047
+      Ski_Char_0: 557268648
+      Ski_Char_1: -237994693
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-=======
-guid: c6b19287278b1e5498264e97924a7b1c
->>>>>>> 69fd1d687b9096da15d18f8d776e8c989cdde96d

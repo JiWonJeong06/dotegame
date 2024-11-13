@@ -1,5 +1,4 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: a63227299b4fbc043b51cf9d4ea05dc0
 TextureImporter:
   internalIDToNameTable: []
@@ -112,8 +111,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b014445eb022d64aafe77430cdb6a45
-      internalID: -1656502999
+      spriteID: 03ee4d2480565a04388be0e1aecba254
+      internalID: -894964811
       vertices: []
       indices: 
       edges: []
@@ -133,8 +132,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 336f43e71b0e37b41a74bc37dd7e4961
-      internalID: -1790046754
+      spriteID: 6fadf469172eb104fbf09ecb2c2bd24a
+      internalID: -1775969522
       vertices: []
       indices: 
       edges: []
@@ -154,8 +153,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 493baa7432ff6054f91064005166e0bf
-      internalID: -622017279
+      spriteID: 4e46694672b7951459ccc452daa262a8
+      internalID: -838732617
       vertices: []
       indices: 
       edges: []
@@ -175,8 +174,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f644b6222411af242ac3c97b13cabc8d
-      internalID: 102238258
+      spriteID: e04563c91aa6f7a44bb3cd8b948357bd
+      internalID: -550337190
       vertices: []
       indices: 
       edges: []
@@ -196,8 +195,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a62578a155804f4fa3cc369267d03c7
-      internalID: -1605543963
+      spriteID: e3e9c92da8b0cb04d836c6630ffc4eea
+      internalID: 1318335501
       vertices: []
       indices: 
       edges: []
@@ -213,16 +212,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Fishing_Char_0: -1656502999
-      Fishing_Char_1: -1790046754
-      Fishing_Char_2: -622017279
-      Fishing_Char_3: 102238258
-      Fishing_Char_4: -1605543963
+      Fishing_Char_0: -894964811
+      Fishing_Char_1: -1775969522
+      Fishing_Char_2: -838732617
+      Fishing_Char_3: -550337190
+      Fishing_Char_4: 1318335501
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-=======
-guid: bd47e2fd5e1618a43a0be22294263245
->>>>>>> 69fd1d687b9096da15d18f8d776e8c989cdde96d

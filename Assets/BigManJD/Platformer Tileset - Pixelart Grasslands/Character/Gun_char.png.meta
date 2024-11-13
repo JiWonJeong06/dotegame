@@ -1,5 +1,4 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 9fa7de271fe49f04786527f9f808ea0f
 TextureImporter:
   internalIDToNameTable: []
@@ -50,10 +49,10 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 24, y: 23, z: 26, w: 24}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
@@ -112,8 +111,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 999cbc66c8397d346bbfa9d4f009c947
-      internalID: 901814184
+      spriteID: 2697a23ff07679743968d09cd65be6d5
+      internalID: 902608535
       vertices: []
       indices: 
       edges: []
@@ -122,19 +121,16 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Gun_char_0: 901814184
+      Gun_char_0: 902608535
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-=======
-guid: a90d54c7885a0954fba0d723f3f1e117
->>>>>>> 69fd1d687b9096da15d18f8d776e8c989cdde96d

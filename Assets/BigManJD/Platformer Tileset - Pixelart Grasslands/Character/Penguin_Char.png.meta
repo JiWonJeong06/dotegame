@@ -111,8 +111,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c21ccb264a0f3a4a8b6cfc06263ea3f
-      internalID: 75196263
+      spriteID: 71e8f505c85c79f4bac3404e39bce7b7
+      internalID: 896044291
       vertices: []
       indices: 
       edges: []
@@ -132,8 +132,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddcd81b3aeb0f2843a96945b40c72e63
-      internalID: -1007126784
+      spriteID: 81be96f4050492349b81227b7c2f56bd
+      internalID: 2017442938
       vertices: []
       indices: 
       edges: []
@@ -153,8 +153,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4906945bee466ea4ab4fa5f86dc52c60
-      internalID: -994086098
+      spriteID: 1201161c07480914cbada91178ffe5c4
+      internalID: 1390621894
       vertices: []
       indices: 
       edges: []
@@ -174,8 +174,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ecbbb6a7fc3ad54a9aa1e27590f07f2
-      internalID: 753550592
+      spriteID: fe3081aca8be97044b90934412b9dd5c
+      internalID: 438839308
       vertices: []
       indices: 
       edges: []
@@ -191,10 +191,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Penguin_Char_0: 75196263
-      Penguin_Char_1: -1007126784
-      Penguin_Char_2: -994086098
-      Penguin_Char_3: 753550592
+      Penguin_Char_0: 896044291
+      Penguin_Char_1: 2017442938
+      Penguin_Char_2: 1390621894
+      Penguin_Char_3: 438839308
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
