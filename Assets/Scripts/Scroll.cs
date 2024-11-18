@@ -15,9 +15,9 @@ public class Scroll : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-            
+        if(GameManager.Gamestart){
         float totalSpeed = 3 * Scrollspeed * Time.deltaTime * -1f;
         transform.Translate(totalSpeed, 0, 0);
-    
+        }
     }
 }
