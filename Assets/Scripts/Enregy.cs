@@ -23,6 +23,6 @@ public class Enregy : MonoBehaviour
         if(!GameManager.Gamestart){
             return;}
 
-        E_uiText.text = "기력 " + GameManager.Enregy.ToString("F0");
+        E_uiText.text = "E: " + GameManager.Enregy.ToString("F0")+"/100";
     }
 }

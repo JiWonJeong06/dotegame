@@ -20,7 +20,7 @@ public class Distance : MonoBehaviour
 
         if (ishighdt) {
             highdt = PlayerPrefs.GetFloat("Score");
-            uiText.text = "최대거리 " + highdt.ToString("F1") + " M";
+            uiText.text = highdt.ToString("F1") + " M";
         }
     }
 

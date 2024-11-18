@@ -24,7 +24,10 @@ public class GameManager : MonoBehaviour
     void Update() {
          if (Gamestart) {
             distance += Time.deltaTime * 1f;
-            Enregy -= Time.deltaTime * 0.5f;
+            Enregy -= Time.deltaTime * 1.2f;
+            if (Enregy <= 0) {
+                GameOver();
+            }
          } 
     }
 
