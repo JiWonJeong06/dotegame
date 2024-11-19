@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
     public static float ddomi;
     public static float ccalamari;
     public static float ttuna;
+
     void Awake()
     {
         Gamestart = true;

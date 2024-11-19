@@ -6,13 +6,16 @@ using UnityEngine.Events;
 
 public class Player : MonoBehaviour
 {
+    public enum State {Seagull, Die}
     public float jump;
     Rigidbody2D rigid;
     public UnityEvent onHit;
+    Animator animator;
 
     void Start() 
     {
         rigid = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
        
     }
     // Update is called once per frame
@@ -66,13 +69,16 @@ public class Player : MonoBehaviour
             GameManager.ttuna += 1f;
         }
     }
-    
+    void AnimatorChange(State state) {
+       animator.SetInteger("State", (int)state);
+    }  
 //고래 박기
     void OnCollisionEnter2D(Collision2D collision){
          if (collision.collider.CompareTag("Whale"))
         {
             Debug.Log("고래와 충돌");
             rigid.simulated = false;
+            AnimatorChange(State.Die);
             onHit.Invoke();
         }
     }
