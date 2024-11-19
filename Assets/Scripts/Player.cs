@@ -24,38 +24,49 @@ public class Player : MonoBehaviour
                 }
         }
     }
-//물고기 잡아 먹기
+
     void OnTriggerEnter2D(Collider2D collision){
         if(collision.CompareTag("Bang-eo")){
             Debug.Log("방어 획득");
             Destroy(collision.gameObject);
-            GameManager.Enregy += 3f;
+            GameManager.Enregy += 1.5f;
+            GameManager.score += 100f;
+            GameManager.bbangeo += 1f;
         }
 
         if(collision.CompareTag("Gajami")){
             Debug.Log("가자미 획득");
             Destroy(collision.gameObject);
-            GameManager.Enregy += 5f;
+            GameManager.Enregy += 2f;
+            GameManager.score += 125f;
+            GameManager.ggajami += 1f;
         }
 
         if(collision.CompareTag("Domi")){
             Debug.Log("도미 획득");
             Destroy(collision.gameObject);
-            GameManager.Enregy += 6.5f;
+            GameManager.Enregy += 3f;
+            GameManager.score += 150f;
+            GameManager.ddomi += 1f;
         }
 
         if(collision.CompareTag("Calamari")){
             Debug.Log("오징어 획득");
             Destroy(collision.gameObject);
-            GameManager.Enregy += 8f;
+            GameManager.Enregy += 5f;
+            GameManager.score += 175f;
+            GameManager.ccalamari += 1f;
         }
 
         if(collision.CompareTag("Tuna")){
             Debug.Log("참치 획득");
             Destroy(collision.gameObject);
-            GameManager.Enregy += 10f;
+            GameManager.Enregy += 6.5f;
+            GameManager.score += 200f;
+            GameManager.ttuna += 1f;
         }
     }
+    
 //고래 박기
     void OnCollisionEnter2D(Collision2D collision){
          if (collision.collider.CompareTag("Whale"))

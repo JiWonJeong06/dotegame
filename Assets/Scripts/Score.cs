@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class Score : MonoBehaviour
 {
 
-    public float score;
 
     Text score_text;
 
@@ -25,7 +24,7 @@ public class Score : MonoBehaviour
         if(!GameManager.Gamestart){
             return;}
 
-        
+        score_text.text = GameManager.score.ToString("F0") +" 점";
     }
 
 

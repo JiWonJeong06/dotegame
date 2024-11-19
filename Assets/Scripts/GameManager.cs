@@ -13,6 +13,14 @@ public class GameManager : MonoBehaviour
     public static bool Gamestart;
 
     public static double Enregy = 100f;
+
+    public static float score;
+
+    public static float bbangeo;
+    public static float ggajami;
+    public static float ddomi;
+    public static float ccalamari;
+    public static float ttuna;
     void Awake()
     {
         Gamestart = true;
@@ -24,7 +32,8 @@ public class GameManager : MonoBehaviour
     void Update() {
          if (Gamestart) {
             distance += Time.deltaTime * 1f;
-            Enregy -= Time.deltaTime * 1.2f;
+            Enregy -= Time.deltaTime * 1.25f;
+            
             if (Enregy >= 100) {
                 Enregy = 100f;
             }
@@ -42,6 +51,12 @@ public class GameManager : MonoBehaviour
     }
     public void Restart() {
             distance = 0;
+            score = 0;
+            bbangeo = 0;
+            ggajami = 0;
+            ddomi = 0;
+            ccalamari =0;
+            ttuna = 0;
             Gamestart = true;
         }
     }
