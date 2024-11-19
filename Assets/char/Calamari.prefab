@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 5224707455909491328}
   - component: {fileID: 4697387644678465962}
   m_Layer: 0
-  m_Name: fish_3
-  m_TagString: fish
+  m_Name: Calamari
+  m_TagString: Calamari
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

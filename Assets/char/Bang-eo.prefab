@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 9065407863116706544}
   - component: {fileID: 3315762412923692880}
   m_Layer: 0
-  m_Name: fish_0
-  m_TagString: fish
+  m_Name: Bang-eo
+  m_TagString: Bang-eo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

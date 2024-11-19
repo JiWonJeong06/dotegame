@@ -202,6 +202,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 40303506}
   m_CullTransparentMesh: 1
+--- !u!1 &165518134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 165518135}
+  m_Layer: 0
+  m_Name: ==============Guild=================
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &165518135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165518134}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &304369911
 GameObject:
   m_ObjectHideFlags: 0
@@ -453,7 +484,7 @@ GameObject:
   - component: {fileID: 447060211}
   - component: {fileID: 447060210}
   m_Layer: 5
-  m_Name: Galramachi
+  m_Name: Calamari
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2100,13 +2131,16 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: 0.12682141, y: 0.08245495}
+      - {x: 0.095024675, y: 0.022308908}
       - {x: -0.03880081, y: 0.04608043}
-      - {x: -0.16594096, y: 0.12552308}
-      - {x: -0.32543403, y: 0.120304346}
-      - {x: -0.46120757, y: 0.07482044}
+      - {x: -0.116661556, y: 0.056083776}
+      - {x: -0.1619155, y: 0.064304896}
+      - {x: -0.17897034, y: -0.0013387501}
       - {x: -0.19468564, y: -0.03354779}
+      - {x: -0.0784685, y: -0.059845116}
       - {x: -0.12317696, y: -0.28905195}
       - {x: 0.16666667, y: -0.29269806}
+      - {x: 0.22557925, y: -0.1707999}
       - {x: 0.37366092, y: -0.16438931}
       - {x: 0.37616265, y: -0.081557125}
       - {x: 0.28922084, y: 0.04044055}
@@ -2499,7 +2533,7 @@ MonoBehaviour:
   - {fileID: 807542581908818199, guid: cad247b4ba2127446a99050e8029fd8b, type: 3}
   - {fileID: 2216705113879986568, guid: b7a7fabbca7b42d4984ae5297c0c0d60, type: 3}
   - {fileID: 1594484840367887612, guid: 744226348419b0140898932a4a3df57d, type: 3}
-  per: 80
+  per: 85
   spawnInterval: 2
 --- !u!4 &1862146232
 Transform:
@@ -2755,7 +2789,8 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 519420032}
-  - {fileID: 1578233376}
   - {fileID: 1622200388}
+  - {fileID: 1578233376}
   - {fileID: 835142372}
   - {fileID: 1014127259}
+  - {fileID: 165518135}
