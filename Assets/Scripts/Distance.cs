@@ -15,13 +15,8 @@ public class Distance : MonoBehaviour
         if(!GameManager.Gamestart){
             return;
         }
-
         uiText = GetComponent<Text>();
 
-        if (ishighdt) {
-            highdt = PlayerPrefs.GetFloat("Score");
-            uiText.text = highdt.ToString("F1") + " M";
-        }
     }
 
     // Update is called once per frame
@@ -29,10 +24,6 @@ public class Distance : MonoBehaviour
     {
         if(!GameManager.Gamestart){
             return;}
-        
-        if (ishighdt && GameManager.distance < highdt)
-            return;
-        
         uiText.text = GameManager.distance.ToString("F1") + " M";
     }
 }

@@ -14,11 +14,11 @@ public class RemoveObject : MonoBehaviour
 
     void RemoveObjs()
     {
-        if (transform.position.x < -25)
+        if (transform.position.x < -20)
         {
             Destroy(gameObject);
             if(Whale_objs){
-                GameManager.score += 10;
+                GameManager.score += 25;
             }
         }
     }

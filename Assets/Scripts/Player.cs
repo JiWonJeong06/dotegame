@@ -22,7 +22,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         if (GameManager.Gamestart) {
-            if(Input.GetKey(KeyCode.Space)){
+            if(Input.GetMouseButton(0)) {
                     rigid.velocity = Vector2.up * jump;
                 }
             if(GameManager.Enregy <= 0) {
@@ -37,7 +37,7 @@ public class Player : MonoBehaviour
         if(collision.CompareTag("Bang-eo")){
             Debug.Log("방어 획득");
             Destroy(collision.gameObject);
-            GameManager.Enregy += 1.5f;
+            GameManager.Enregy += 2f;
             GameManager.score += 100f;
             GameManager.bbangeo += 1f;
         }
@@ -45,32 +45,32 @@ public class Player : MonoBehaviour
         if(collision.CompareTag("Gajami")){
             Debug.Log("가자미 획득");
             Destroy(collision.gameObject);
-            GameManager.Enregy += 2f;
-            GameManager.score += 125f;
+            GameManager.Enregy += 3f;
+            GameManager.score += 150f;
             GameManager.ggajami += 1f;
         }
 
         if(collision.CompareTag("Domi")){
             Debug.Log("도미 획득");
             Destroy(collision.gameObject);
-            GameManager.Enregy += 3f;
-            GameManager.score += 150f;
+            GameManager.Enregy += 5f;
+            GameManager.score += 200f;
             GameManager.ddomi += 1f;
         }
 
         if(collision.CompareTag("Calamari")){
             Debug.Log("오징어 획득");
             Destroy(collision.gameObject);
-            GameManager.Enregy += 5f;
-            GameManager.score += 175f;
+            GameManager.Enregy += 8f;
+            GameManager.score += 300f;
             GameManager.ccalamari += 1f;
         }
 
         if(collision.CompareTag("Tuna")){
             Debug.Log("참치 획득");
             Destroy(collision.gameObject);
-            GameManager.Enregy += 6.5f;
-            GameManager.score += 200f;
+            GameManager.Enregy += 10f;
+            GameManager.score += 500f;
             GameManager.ttuna += 1f;
         }
     }
