@@ -25,6 +25,11 @@ public class Player : MonoBehaviour
             if(Input.GetKey(KeyCode.Space)){
                     rigid.velocity = Vector2.up * jump;
                 }
+            if(GameManager.Enregy <= 0) {
+            rigid.simulated = false;
+            AnimatorChange(State.Die);
+            onHit.Invoke();
+            }
         }
     }
 
@@ -74,7 +79,7 @@ public class Player : MonoBehaviour
     }  
 //고래 박기
     void OnCollisionEnter2D(Collision2D collision){
-         if (collision.collider.CompareTag("Whale"))
+        if (collision.collider.CompareTag("Whale"))
         {
             Debug.Log("고래와 충돌");
             rigid.simulated = false;

@@ -38,9 +38,6 @@ public class GameManager : MonoBehaviour
             if (Enregy >= 100) {
                 Enregy = 100f;
             }
-            if (Enregy <= 0) {
-                GameOver();
-            }
          } 
     }
 
