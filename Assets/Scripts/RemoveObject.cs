@@ -14,7 +14,7 @@ public class RemoveObject : MonoBehaviour
 
     void RemoveObjs()
     {
-        if (transform.position.x < -20)
+        if (transform.position.x < -26)
         {
             Destroy(gameObject);
             if(Whale_objs){

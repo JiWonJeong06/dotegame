@@ -4112,7 +4112,7 @@ MonoBehaviour:
   - {fileID: 1594484840367887612, guid: 744226348419b0140898932a4a3df57d, type: 3}
   - {fileID: 1594484840367887612, guid: 744226348419b0140898932a4a3df57d, type: 3}
   per: 75
-  spawnInterval: 2
+  spawnInterval: 3
 --- !u!4 &1862146232
 Transform:
   m_ObjectHideFlags: 0
